@@ -16,5 +16,48 @@ a {
 h1,h2,h3,h4,h5,h6,p {
     padding: 0;
     margin: 0;
-    line-height: 0.8px;
+
+}
+.left_banner_part{
+    width: 50%;
+    background: red;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#bannerPart {
+    padding: 140px 116px;
+    background: #000;
+}
+.banner_Content {
+    display: flex;
+    /* justify-content: space-between; */
+    /* gap: 502px; */
+}
+.left_part h1 {
+    font-family:Epilogue;
+    font-weight:600;
+    font-size:100px;
+    color: #FFFFFF;
+    /* width: 1047px; */
+    
+}
+
+.left_part span {
+    color: #D62B2C;    
+}
+.banner_bottom_content {
+    display: flex;
+
+}
+.right_banner_part {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+
+   
 }
